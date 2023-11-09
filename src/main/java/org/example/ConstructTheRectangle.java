@@ -9,16 +9,16 @@ public class ConstructTheRectangle {
         double sqrtOfNum = Math.sqrt(area);
         for (int i = 2; i <= sqrtOfNum; i++) {
             int multiplier = i;
-            int factorOfI = i * multiplier;
+            int multipleOfI = i * multiplier;
 
-            while (factorOfI <= area) {
-                if (factorOfI == area && multiplier - i < leastDifferenceBetweenLengthAndWidth) {
+            while (multipleOfI <= area) {
+                if (multipleOfI == area && multiplier - i < leastDifferenceBetweenLengthAndWidth) {
                     leastDifferenceBetweenLengthAndWidth = multiplier - i;
                     dimensions[0] = multiplier;
                     dimensions[1] = i;
                 }
                 multiplier++;
-                factorOfI = i * multiplier;
+                multipleOfI = i * multiplier;
             }
         }
 
