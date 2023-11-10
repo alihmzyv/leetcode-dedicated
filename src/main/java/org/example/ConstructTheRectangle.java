@@ -1,29 +1,39 @@
 package org.example;
 
+import org.example.extra.DoubleUtil;
+
 public class ConstructTheRectangle {
-    // TODO: 09.11.23 research on the most efficient solutions for this problem. 
-    // TODO: 09.11.23 Research other methods on finding prime numbers, the factors of a number etc.
+    // TODO: 09.11.23 research on the most efficient solutions for this problem.
     public int[] constructRectangle(int area) {
-        //using Sieve of Eratosthenes method
-        int leastDifferenceBetweenLengthAndWidth = area - 1;
-        int[] dimensions = {area, 1};
+        int length = 0;
+        int width = 0;
+        double sqrtOfArea = Math.sqrt(area);
 
-        double sqrtOfNum = Math.sqrt(area);
-        for (int i = 2; i <= sqrtOfNum; i++) {
-            int multiplier = i;
-            int multipleOfI = i * multiplier;
+        if (DoubleUtil.isInteger(sqrtOfArea)) {
+            length = (int) sqrtOfArea;
+            width = (int) sqrtOfArea;
+        } else {
+            int downNearestSqrtOfArea = (int) Math.floor(sqrtOfArea);
+            int starting;
+            int step;
 
-            while (multipleOfI <= area) {
-                if (multipleOfI == area && multiplier - i < leastDifferenceBetweenLengthAndWidth) {
-                    leastDifferenceBetweenLengthAndWidth = multiplier - i;
-                    dimensions[0] = multiplier;
-                    dimensions[1] = i;
+            if (area % 2 == 0) {
+                starting = downNearestSqrtOfArea;
+                step = 1;
+            } else {
+                starting = downNearestSqrtOfArea % 2 != 0 ? downNearestSqrtOfArea : downNearestSqrtOfArea - 1;
+                step = 2;
+            }
+
+            for (int i = starting; i >= 1; i -= step) {
+                if (area % i == 0) {
+                    width = i;
+                    length = area / i;
+                    break;
                 }
-                multiplier++;
-                multipleOfI = i * multiplier;
             }
         }
 
-        return dimensions;
+        return new int[]{length, width};
     }
 }
