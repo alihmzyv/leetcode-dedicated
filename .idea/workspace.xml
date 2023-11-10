@@ -4,16 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b3a3b6db-9d4c-4e75-945c-3a06d9123149" name="Changes" comment="add todos.">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/extra/DoubleUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/extra/FactorsUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/extra/PrimeNumberUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/extra/SqrtUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+    <list default="true" id="b3a3b6db-9d4c-4e75-945c-3a06d9123149" name="Changes" comment="add method to find all factors of a number. make Construct the Rectangle better.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/MostFrequentNumberFollowingKeyInAnArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/MostFrequentNumberFollowingKeyInAnArrayTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ConstructTheRectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ConstructTheRectangle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,8 +22,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -67,7 +61,7 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.ConstructTheRectangleTest.constructRectangle3">
+  <component name="RunManager" selected="Gradle.MostFrequentNumberFollowingKeyInAnArrayTest.mostFrequentTest3">
     <configuration name="ConstructTheRectangleTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -82,30 +76,6 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;org.example.ConstructTheRectangleTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="ConstructTheRectangleTest.constructRectangle" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;org.example.ConstructTheRectangleTest.constructRectangle&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -164,7 +134,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="ConstructTheRectangleTest.getPrimeNumbersSmallerThanOrEqualToTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MostFrequentNumberFollowingKeyInAnArrayTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -177,7 +147,31 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;org.example.ConstructTheRectangleTest.getPrimeNumbersSmallerThanOrEqualToTest&quot;" />
+            <option value="&quot;org.example.MostFrequentNumberFollowingKeyInAnArrayTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="MostFrequentNumberFollowingKeyInAnArrayTest.mostFrequentTest3" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;org.example.MostFrequentNumberFollowingKeyInAnArrayTest.mostFrequentTest3&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -190,11 +184,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.MostFrequentNumberFollowingKeyInAnArrayTest.mostFrequentTest3" />
+        <item itemvalue="Gradle.MostFrequentNumberFollowingKeyInAnArrayTest" />
         <item itemvalue="Gradle.ConstructTheRectangleTest.constructRectangle3" />
         <item itemvalue="Gradle.ConstructTheRectangleTest.constructRectangle2" />
         <item itemvalue="Gradle.ConstructTheRectangleTest" />
-        <item itemvalue="Gradle.ConstructTheRectangleTest.constructRectangle" />
-        <item itemvalue="Gradle.ConstructTheRectangleTest.getPrimeNumbersSmallerThanOrEqualToTest" />
       </list>
     </recent_temporary>
   </component>
@@ -207,7 +201,7 @@
       <option name="presentableId" value="Default" />
       <updated>1699529553196</updated>
       <workItem from="1699529554227" duration="5522000" />
-      <workItem from="1699599599297" duration="5440000" />
+      <workItem from="1699599599297" duration="7655000" />
     </task>
     <task id="LOCAL-00001" summary="solve Construct The Rectangle, but slow.">
       <option name="closed" value="true" />
@@ -233,7 +227,15 @@
       <option name="project" value="LOCAL" />
       <updated>1699534499348</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add method to find all factors of a number. make Construct the Rectangle better.">
+      <option name="closed" value="true" />
+      <created>1699605121507</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1699605121507</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -242,6 +244,18 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="solve Construct The Rectangle, but slow." />
     <MESSAGE value="add todos." />
-    <option name="LAST_COMMIT_MESSAGE" value="add todos." />
+    <MESSAGE value="add method to find all factors of a number. make Construct the Rectangle better." />
+    <option name="LAST_COMMIT_MESSAGE" value="add method to find all factors of a number. make Construct the Rectangle better." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/MostFrequentNumberFollowingKeyInAnArray.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
