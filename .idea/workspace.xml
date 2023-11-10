@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b3a3b6db-9d4c-4e75-945c-3a06d9123149" name="Changes" comment="add method to find all factors of a number. make Construct the Rectangle better.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/MostFrequentNumberFollowingKeyInAnArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/MostFrequentNumberFollowingKeyInAnArrayTest.java" afterDir="false" />
+    <list default="true" id="b3a3b6db-9d4c-4e75-945c-3a06d9123149" name="Changes" comment="solve MostFrequentNumberFollowingKeyInAnArray. add to do of finding more efficient solutions.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/GuessNumberHigherOrLower.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/GuessNumberHigherOrLowerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,8 +61,8 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.MostFrequentNumberFollowingKeyInAnArrayTest.mostFrequentTest3">
-    <configuration name="ConstructTheRectangleTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.GuessNumberHigherOrLowerTest">
+    <configuration name="GuessNumberHigherOrLowerTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -75,7 +75,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;org.example.ConstructTheRectangleTest&quot;" />
+            <option value="&quot;org.example.GuessNumberHigherOrLowerTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -86,7 +86,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="ConstructTheRectangleTest.constructRectangle2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="GuessNumberHigherOrLowerTest.guessNumber" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -99,7 +99,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;org.example.ConstructTheRectangleTest.constructRectangle2&quot;" />
+            <option value="&quot;org.example.GuessNumberHigherOrLowerTest.guessNumber&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -110,7 +110,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="ConstructTheRectangleTest.constructRectangle3" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="GuessNumberHigherOrLowerTest.guessNumberTest2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -123,7 +123,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;org.example.ConstructTheRectangleTest.constructRectangle3&quot;" />
+            <option value="&quot;org.example.GuessNumberHigherOrLowerTest.guessNumberTest2&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -134,7 +134,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="MostFrequentNumberFollowingKeyInAnArrayTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="GuessNumberHigherOrLowerTest.guessNumberTest3" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -147,7 +147,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;org.example.MostFrequentNumberFollowingKeyInAnArrayTest&quot;" />
+            <option value="&quot;org.example.GuessNumberHigherOrLowerTest.guessNumberTest3&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -184,11 +184,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.GuessNumberHigherOrLowerTest" />
+        <item itemvalue="Gradle.GuessNumberHigherOrLowerTest.guessNumberTest3" />
+        <item itemvalue="Gradle.GuessNumberHigherOrLowerTest.guessNumber" />
+        <item itemvalue="Gradle.GuessNumberHigherOrLowerTest.guessNumberTest2" />
         <item itemvalue="Gradle.MostFrequentNumberFollowingKeyInAnArrayTest.mostFrequentTest3" />
-        <item itemvalue="Gradle.MostFrequentNumberFollowingKeyInAnArrayTest" />
-        <item itemvalue="Gradle.ConstructTheRectangleTest.constructRectangle3" />
-        <item itemvalue="Gradle.ConstructTheRectangleTest.constructRectangle2" />
-        <item itemvalue="Gradle.ConstructTheRectangleTest" />
       </list>
     </recent_temporary>
   </component>
@@ -202,6 +202,8 @@
       <updated>1699529553196</updated>
       <workItem from="1699529554227" duration="5522000" />
       <workItem from="1699599599297" duration="7655000" />
+      <workItem from="1699628848255" duration="56000" />
+      <workItem from="1699631858394" duration="5285000" />
     </task>
     <task id="LOCAL-00001" summary="solve Construct The Rectangle, but slow.">
       <option name="closed" value="true" />
@@ -235,7 +237,15 @@
       <option name="project" value="LOCAL" />
       <updated>1699605121507</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="solve MostFrequentNumberFollowingKeyInAnArray. add to do of finding more efficient solutions.">
+      <option name="closed" value="true" />
+      <created>1699628891372</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1699628891372</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -245,15 +255,21 @@
     <MESSAGE value="solve Construct The Rectangle, but slow." />
     <MESSAGE value="add todos." />
     <MESSAGE value="add method to find all factors of a number. make Construct the Rectangle better." />
-    <option name="LAST_COMMIT_MESSAGE" value="add method to find all factors of a number. make Construct the Rectangle better." />
+    <MESSAGE value="solve MostFrequentNumberFollowingKeyInAnArray. add to do of finding more efficient solutions." />
+    <option name="LAST_COMMIT_MESSAGE" value="solve MostFrequentNumberFollowingKeyInAnArray. add to do of finding more efficient solutions." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/example/MostFrequentNumberFollowingKeyInAnArray.java</url>
-          <line>7</line>
+          <line>8</line>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/GuessNumberHigherOrLower.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
