@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b3a3b6db-9d4c-4e75-945c-3a06d9123149" name="Changes" comment="solve MostFrequentNumberFollowingKeyInAnArray. add to do of finding more efficient solutions.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/GuessNumberHigherOrLower.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/GuessNumberHigherOrLowerTest.java" afterDir="false" />
+    <list default="true" id="b3a3b6db-9d4c-4e75-945c-3a06d9123149" name="Changes" comment="solve Guess Number Higher or Lower. beats 100% in time. space complexity is high.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/CheckIfAStringIsAnAcronymOfWords.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/LongestContinuousIncreasingSubsequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/MaximumProductOfTwoElementsInAnArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/LongestContinuousIncreasingSubsequenceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/MaximumProductOfTwoElementsInAnArrayTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,7 +64,7 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.GuessNumberHigherOrLowerTest">
+  <component name="RunManager" selected="Gradle.LongestContinuousIncreasingSubsequenceTest.findLengthOfLCISTest1">
     <configuration name="GuessNumberHigherOrLowerTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -110,30 +113,6 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="GuessNumberHigherOrLowerTest.guessNumberTest2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;org.example.GuessNumberHigherOrLowerTest.guessNumberTest2&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
     <configuration name="GuessNumberHigherOrLowerTest.guessNumberTest3" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -158,7 +137,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="MostFrequentNumberFollowingKeyInAnArrayTest.mostFrequentTest3" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="LongestContinuousIncreasingSubsequenceTest.findLengthOfLCISTest1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -171,7 +150,31 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;org.example.MostFrequentNumberFollowingKeyInAnArrayTest.mostFrequentTest3&quot;" />
+            <option value="&quot;org.example.LongestContinuousIncreasingSubsequenceTest.findLengthOfLCISTest1&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="MaximumProductOfTwoElementsInAnArrayTest.maxProductTest1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;org.example.MaximumProductOfTwoElementsInAnArrayTest.maxProductTest1&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -184,11 +187,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.LongestContinuousIncreasingSubsequenceTest.findLengthOfLCISTest1" />
+        <item itemvalue="Gradle.MaximumProductOfTwoElementsInAnArrayTest.maxProductTest1" />
         <item itemvalue="Gradle.GuessNumberHigherOrLowerTest" />
         <item itemvalue="Gradle.GuessNumberHigherOrLowerTest.guessNumberTest3" />
         <item itemvalue="Gradle.GuessNumberHigherOrLowerTest.guessNumber" />
-        <item itemvalue="Gradle.GuessNumberHigherOrLowerTest.guessNumberTest2" />
-        <item itemvalue="Gradle.MostFrequentNumberFollowingKeyInAnArrayTest.mostFrequentTest3" />
       </list>
     </recent_temporary>
   </component>
@@ -203,7 +206,8 @@
       <workItem from="1699529554227" duration="5522000" />
       <workItem from="1699599599297" duration="7655000" />
       <workItem from="1699628848255" duration="56000" />
-      <workItem from="1699631858394" duration="5285000" />
+      <workItem from="1699631858394" duration="5401000" />
+      <workItem from="1699684804066" duration="3414000" />
     </task>
     <task id="LOCAL-00001" summary="solve Construct The Rectangle, but slow.">
       <option name="closed" value="true" />
@@ -245,7 +249,15 @@
       <option name="project" value="LOCAL" />
       <updated>1699628891372</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="solve Guess Number Higher or Lower. beats 100% in time. space complexity is high.">
+      <option name="closed" value="true" />
+      <created>1699643195847</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1699643195847</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -256,7 +268,8 @@
     <MESSAGE value="add todos." />
     <MESSAGE value="add method to find all factors of a number. make Construct the Rectangle better." />
     <MESSAGE value="solve MostFrequentNumberFollowingKeyInAnArray. add to do of finding more efficient solutions." />
-    <option name="LAST_COMMIT_MESSAGE" value="solve MostFrequentNumberFollowingKeyInAnArray. add to do of finding more efficient solutions." />
+    <MESSAGE value="solve Guess Number Higher or Lower. beats 100% in time. space complexity is high." />
+    <option name="LAST_COMMIT_MESSAGE" value="solve Guess Number Higher or Lower. beats 100% in time. space complexity is high." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -268,8 +281,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/example/GuessNumberHigherOrLower.java</url>
-          <line>10</line>
+          <line>11</line>
           <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/MaximumProductOfTwoElementsInAnArray.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
