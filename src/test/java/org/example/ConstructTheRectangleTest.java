@@ -1,33 +1,28 @@
 package org.example;
 
-import org.junit.jupiter.api.Test;
+import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.Arguments;
+import org.junit.jupiter.params.provider.MethodSource;
 
-import static org.junit.jupiter.api.Assertions.*;
+import java.util.stream.Stream;
+
+import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
 class ConstructTheRectangleTest {
     ConstructTheRectangle constructTheRectangle = new ConstructTheRectangle();
 
-    @Test
-    void constructRectangle() {
-        int area = 4;
-        int[] expected = new int[]{2, 2};
-        int[] actual = constructTheRectangle.constructRectangle(area);
-        assertArrayEquals(expected, actual);
+    @ParameterizedTest
+    @MethodSource("provideAreasAndExpectedDimensions")
+    void givenAreaThenDimensionsShouldBe(int area, int[] expectedDimensions) {
+        int[] actualDimensions = constructTheRectangle.constructRectangle(area);
+        assertArrayEquals(expectedDimensions, actualDimensions);
     }
 
-    @Test
-    void constructRectangle2() {
-        int area = 37;
-        int[] expected = new int[]{37, 1};
-        int[] actual = constructTheRectangle.constructRectangle(area);
-        assertArrayEquals(expected, actual);
-    }
-
-    @Test
-    void constructRectangle3() {
-        int area = 122122;
-        int[] expected = new int[]{427, 286};
-        int[] actual = constructTheRectangle.constructRectangle(area);
-        assertArrayEquals(expected, actual);
+    static Stream<Arguments> provideAreasAndExpectedDimensions() {
+        return Stream.of(
+                Arguments.of(4, new int[]{2, 2}),
+                Arguments.of(37, new int[]{37, 1}),
+                Arguments.of(122122, new int[]{427, 286})
+        );
     }
 }

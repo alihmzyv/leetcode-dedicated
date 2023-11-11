@@ -1,36 +1,28 @@
 package org.example;
 
-import org.junit.jupiter.api.Test;
+import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.Arguments;
+import org.junit.jupiter.params.provider.MethodSource;
+
+import java.util.stream.Stream;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class MostFrequentNumberFollowingKeyInAnArrayTest {
     MostFrequentNumberFollowingKeyInAnArray mostFrequentNumberFollowingKeyInAnArray = new MostFrequentNumberFollowingKeyInAnArray();
 
-    @Test
-    void mostFrequentTest1() {
-        int[] nums = {1, 100, 200, 1, 100};
-        int key = 1;
-        int expected = 100;
+    @ParameterizedTest
+    @MethodSource("provideNumsAndKeyAndExpectedTarget")
+    void givenNumsAndKeysThenMostFrequentTargetFollowingKeyShouldBe(int[] nums, int key, int expectedTarget) {
         int actual = mostFrequentNumberFollowingKeyInAnArray.mostFrequent(nums, key);
-        assertEquals(expected, actual);
+        assertEquals(expectedTarget, actual);
     }
 
-    @Test
-    void mostFrequentTest2() {
-        int[] nums = {2, 2, 2, 2, 3};
-        int key = 2;
-        int expected = 2;
-        int actual = mostFrequentNumberFollowingKeyInAnArray.mostFrequent(nums, key);
-        assertEquals(expected, actual);
-    }
-
-    @Test
-    void mostFrequentTest3() {
-        int[] nums = {1, 1000, 2};
-        int key = 1000;
-        int expected = 2;
-        int actual = mostFrequentNumberFollowingKeyInAnArray.mostFrequent(nums, key);
-        assertEquals(expected, actual);
+    static Stream<Arguments> provideNumsAndKeyAndExpectedTarget() {
+        return Stream.of(
+                Arguments.of(new int[]{1, 100, 200, 1, 100}, 1, 100),
+                Arguments.of(new int[]{2, 2, 2, 2, 3}, 2, 2),
+                Arguments.of(new int[]{1, 1000, 2}, 1000, 2)
+        );
     }
 }
