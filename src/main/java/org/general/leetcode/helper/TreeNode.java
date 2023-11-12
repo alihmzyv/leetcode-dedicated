@@ -1,9 +1,11 @@
 package org.general.leetcode.helper;
 
+import org.general.leetcode.SameTree;
+
 public class TreeNode {
     int val;
-    TreeNode left;
-    TreeNode right;
+    SameTree.TreeNode left;
+    SameTree.TreeNode right;
 
     TreeNode() {
     }
@@ -12,23 +14,9 @@ public class TreeNode {
         this.val = val;
     }
 
-    TreeNode(int val, TreeNode left, TreeNode right) {
+    TreeNode(int val, SameTree.TreeNode left, SameTree.TreeNode right) {
         this.val = val;
         this.left = left;
         this.right = right;
     }
-
-
-    public int getVal() {
-        return val;
-    }
-
-    public TreeNode getLeft() {
-        return left;
-    }
-
-    public TreeNode getRight() {
-        return right;
-    }
 }
-

@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b3a3b6db-9d4c-4e75-945c-3a06d9123149" name="Changes" comment="implement mergesort, then improve readability. restructure packages.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/general/leetcode/SameTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/general/leetcode/helper/TreeNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/general/leetcode/SameTreeTest.java" afterDir="false" />
+    <list default="true" id="b3a3b6db-9d4c-4e75-945c-3a06d9123149" name="Changes" comment="implement isSameTree all by myself. beating 100% in both runtime and memory (memory part almost).">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/general/leetcode/CheckIfTwoStringArraysAreEquivalent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/general/leetcode/CheckIfTwoStringArraysAreEquivalentTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/general/leetcode/helper/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/general/leetcode/helper/TreeNode.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,11 +78,60 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.general.leetcode" />
       <recent name="org.general.sedgewick" />
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.SortingMyImplsTest.mergeSortTest">
+  <component name="RunManager" selected="Gradle.CheckIfTwoStringArraysAreEquivalentTest.arrayStringsAreEqual">
+    <configuration name="CheckIfTwoStringArraysAreEquivalentTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;org.general.leetcode.CheckIfTwoStringArraysAreEquivalentTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="CheckIfTwoStringArraysAreEquivalentTest.arrayStringsAreEqual" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;org.general.leetcode.CheckIfTwoStringArraysAreEquivalentTest.arrayStringsAreEqual&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
     <configuration name="SortingMyImplsTest.insertionSortTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -155,61 +204,13 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="ThreeSumTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;org.example.ThreeSumTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="ThreeSumTest.threeSum" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;org.example.ThreeSumTest.threeSum&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.CheckIfTwoStringArraysAreEquivalentTest.arrayStringsAreEqual" />
+        <item itemvalue="Gradle.CheckIfTwoStringArraysAreEquivalentTest" />
         <item itemvalue="Gradle.SortingMyImplsTest.mergeSortTest" />
         <item itemvalue="Gradle.SortingMyImplsTest.insertionSortTest" />
         <item itemvalue="Gradle.SortingMyImplsTest.selectionSort" />
-        <item itemvalue="Gradle.ThreeSumTest.threeSum" />
-        <item itemvalue="Gradle.ThreeSumTest" />
       </list>
     </recent_temporary>
   </component>
@@ -230,7 +231,8 @@
       <workItem from="1699704335458" duration="15622000" />
       <workItem from="1699783475859" duration="20000" />
       <workItem from="1699804179608" duration="7949000" />
-      <workItem from="1699816381371" duration="1044000" />
+      <workItem from="1699816381371" duration="1144000" />
+      <workItem from="1699817605787" duration="3775000" />
     </task>
     <task id="LOCAL-00001" summary="solve Construct The Rectangle, but slow.">
       <option name="closed" value="true" />
@@ -312,7 +314,15 @@
       <option name="project" value="LOCAL" />
       <updated>1699816351869</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="implement isSameTree all by myself. beating 100% in both runtime and memory (memory part almost).">
+      <option name="closed" value="true" />
+      <created>1699817467869</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1699817467869</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -328,7 +338,8 @@
     <MESSAGE value="use parametrized tests." />
     <MESSAGE value="solve 3sum. needs refactoring." />
     <MESSAGE value="implement mergesort, then improve readability. restructure packages." />
-    <option name="LAST_COMMIT_MESSAGE" value="implement mergesort, then improve readability. restructure packages." />
+    <MESSAGE value="implement isSameTree all by myself. beating 100% in both runtime and memory (memory part almost)." />
+    <option name="LAST_COMMIT_MESSAGE" value="implement isSameTree all by myself. beating 100% in both runtime and memory (memory part almost)." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
