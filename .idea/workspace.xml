@@ -4,12 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b3a3b6db-9d4c-4e75-945c-3a06d9123149" name="Changes" comment="use parametrized tests.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ThreeSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TwoSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/ThreeSumTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/TwoSumTest.java" afterDir="false" />
+    <list default="true" id="b3a3b6db-9d4c-4e75-945c-3a06d9123149" name="Changes" comment="solve 3sum. needs refactoring.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/general/sedgewick/SortingMyImpls.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/general/sedgewick/SortingMyImplsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/CheckIfAStringIsAnAcronymOfWords.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/general/leetcode/CheckIfAStringIsAnAcronymOfWords.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ConstructTheRectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/general/leetcode/ConstructTheRectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/GuessNumberHigherOrLower.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/general/leetcode/GuessNumberHigherOrLower.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/LongestContinuousIncreasingSubsequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/general/leetcode/LongestContinuousIncreasingSubsequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/MaximumProductOfTwoElementsInAnArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/general/leetcode/MaximumProductOfTwoElementsInAnArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/MostFrequentNumberFollowingKeyInAnArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/general/leetcode/MostFrequentNumberFollowingKeyInAnArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ThreeSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/general/leetcode/ThreeSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/TwoSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/general/leetcode/TwoSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/extra/DoubleUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/general/leetcode/extra/DoubleUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/extra/FactorsUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/general/leetcode/extra/FactorsUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/extra/PrimeNumberUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/general/leetcode/extra/PrimeNumberUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/extra/SqrtUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/general/leetcode/extra/SqrtUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/ConstructTheRectangleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/general/ConstructTheRectangleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/GuessNumberHigherOrLowerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/general/GuessNumberHigherOrLowerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/LongestContinuousIncreasingSubsequenceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/general/LongestContinuousIncreasingSubsequenceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/MaximumProductOfTwoElementsInAnArrayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/general/MaximumProductOfTwoElementsInAnArrayTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/MostFrequentNumberFollowingKeyInAnArrayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/general/MostFrequentNumberFollowingKeyInAnArrayTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/ThreeSumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/general/ThreeSumTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/TwoSumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/general/TwoSumTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,34 +73,36 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "last_opened_file_path": "/home/alihmzyv/IdeaProjects/leetcode-dedicated",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.general.sedgewick" />
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.ThreeSumTest.threeSum">
-    <configuration name="Tests in 'leetcode-dedicated.test'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.SortingMyImplsTest.mergeSortTest">
+    <configuration name="SortingMyImplsTest.insertionSortTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -94,6 +114,56 @@
         <option name="taskNames">
           <list>
             <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;org.general.sedgewick.SortingMyImplsTest.insertionSortTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="SortingMyImplsTest.mergeSortTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;org.general.sedgewick.SortingMyImplsTest.mergeSortTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="SortingMyImplsTest.selectionSort" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;org.general.sedgewick.SortingMyImplsTest.selectionSort&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -128,30 +198,6 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="ThreeSumTest.givenNumsThenTripletsShouldBe" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;org.example.ThreeSumTest.givenNumsThenTripletsShouldBe&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
     <configuration name="ThreeSumTest.threeSum" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -176,37 +222,13 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="TwoSumTest.twoSumV2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;org.example.TwoSumTest.twoSumV2&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.SortingMyImplsTest.mergeSortTest" />
+        <item itemvalue="Gradle.SortingMyImplsTest.insertionSortTest" />
+        <item itemvalue="Gradle.SortingMyImplsTest.selectionSort" />
         <item itemvalue="Gradle.ThreeSumTest.threeSum" />
         <item itemvalue="Gradle.ThreeSumTest" />
-        <item itemvalue="Gradle.TwoSumTest.twoSumV2" />
-        <item itemvalue="Gradle.ThreeSumTest.givenNumsThenTripletsShouldBe" />
-        <item itemvalue="Gradle.Tests in 'leetcode-dedicated.test'" />
       </list>
     </recent_temporary>
   </component>
@@ -224,7 +246,9 @@
       <workItem from="1699631858394" duration="5401000" />
       <workItem from="1699684804066" duration="4674000" />
       <workItem from="1699696502368" duration="6218000" />
-      <workItem from="1699704335458" duration="11187000" />
+      <workItem from="1699704335458" duration="15622000" />
+      <workItem from="1699783475859" duration="20000" />
+      <workItem from="1699804179608" duration="7902000" />
     </task>
     <task id="LOCAL-00001" summary="solve Construct The Rectangle, but slow.">
       <option name="closed" value="true" />
@@ -290,7 +314,15 @@
       <option name="project" value="LOCAL" />
       <updated>1699699917720</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="solve 3sum. needs refactoring.">
+      <option name="closed" value="true" />
+      <created>1699719400527</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1699719400527</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -304,30 +336,39 @@
     <MESSAGE value="solve Guess Number Higher or Lower. beats 100% in time. space complexity is high." />
     <MESSAGE value="solve 3 problems." />
     <MESSAGE value="use parametrized tests." />
-    <option name="LAST_COMMIT_MESSAGE" value="use parametrized tests." />
+    <MESSAGE value="solve 3sum. needs refactoring." />
+    <option name="LAST_COMMIT_MESSAGE" value="solve 3sum. needs refactoring." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/GuessNumberHigherOrLower.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/org/general/leetcode/GuessNumberHigherOrLower.java</url>
           <line>11</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/MaximumProductOfTwoElementsInAnArray.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/org/general/leetcode/MaximumProductOfTwoElementsInAnArray.java</url>
           <line>7</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/TwoSum.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/org/general/leetcode/TwoSum.java</url>
           <line>23</line>
           <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/ThreeSum.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/org/general/leetcode/ThreeSum.java</url>
           <line>6</line>
           <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/general/sedgewick/SortingMyImpls.java</url>
+          <line>41</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="19" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

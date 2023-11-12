@@ -1,6 +1,6 @@
-package org.example;
+package org.general.leetcode;
 
-import org.example.extra.DoubleUtil;
+import org.general.leetcode.extra.DoubleUtil;
 
 public class ConstructTheRectangle {
     // TODO: 09.11.23 research on the most efficient solutions for this problem.

@@ -1,8 +1,6 @@
-package org.example;
+package org.general.leetcode;
 
-import java.util.Arrays;
 import java.util.List;
-import java.util.stream.IntStream;
 
 public class CheckIfAStringIsAnAcronymOfWords {
     // TODO: 11.11.23 search space complexity

@@ -1,4 +1,4 @@
-package org.example;
+package org.general.leetcode;
 
 public class GuessNumberHigherOrLower {
     // TODO: 10.11.23 what is problem with space?

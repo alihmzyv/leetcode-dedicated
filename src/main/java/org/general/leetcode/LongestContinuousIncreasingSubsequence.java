@@ -1,7 +1,4 @@
-package org.example;
-
-import java.util.HashMap;
-import java.util.Map;
+package org.general.leetcode;
 
 public class LongestContinuousIncreasingSubsequence {
     // TODO: 11.11.23 search more

@@ -1,8 +1,7 @@
-package org.example;
+package org.general;
 
+import org.general.leetcode.TwoSum;
 import org.junit.jupiter.api.Test;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 class TwoSumTest {
     TwoSum twoSum = new TwoSum();

@@ -1,5 +1,6 @@
-package org.example;
+package org.general;
 
+import org.general.leetcode.ThreeSum;
 import org.junit.jupiter.api.Test;
 
 import java.util.List;

@@ -1,6 +1,4 @@
-package org.example.extra;
-
-import org.apache.commons.math3.primes.Primes;
+package org.general.leetcode.extra;
 
 import java.util.Arrays;
 import java.util.List;

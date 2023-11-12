@@ -1,6 +1,4 @@
-package org.example;
-
-import java.util.Arrays;
+package org.general.leetcode;
 
 public class MaximumProductOfTwoElementsInAnArray {
     // TODO: 11.11.23 search why space complexity is high
