@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b3a3b6db-9d4c-4e75-945c-3a06d9123149" name="Changes" comment="solve CheckIfTwoStringArraysAreEquivalent, but slow.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/general/leetcode/SplitWithMinimumSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/general/leetcode/SplitWithMinimumSumTest.java" afterDir="false" />
+    <list default="true" id="b3a3b6db-9d4c-4e75-945c-3a06d9123149" name="Changes" comment="solve SplitWithMinimumSum. can be faster.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/general/SlowestKey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/general/SlowestKeyTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,36 +53,37 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "last_opened_file_path": "/home/alihmzyv/IdeaProjects/bonus-service",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/alihmzyv/IdeaProjects/bonus-service&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.general" />
       <recent name="org.general.leetcode" />
       <recent name="org.general.sedgewick" />
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.SplitWithMinimumSumTest">
+  <component name="RunManager" selected="Gradle.SlowestKeyTest.slowestKey">
     <configuration name="CheckIfTwoStringArraysAreEquivalentTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -131,7 +132,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="SortingMyImplsTest.mergeSortTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="SlowestKeyTest.slowestKey" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -144,7 +145,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;org.general.sedgewick.SortingMyImplsTest.mergeSortTest&quot;" />
+            <option value="&quot;org.general.SlowestKeyTest.slowestKey&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -205,11 +206,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.SlowestKeyTest.slowestKey" />
         <item itemvalue="Gradle.SplitWithMinimumSumTest" />
         <item itemvalue="Gradle.SplitWithMinimumSumTest.splitNum" />
         <item itemvalue="Gradle.CheckIfTwoStringArraysAreEquivalentTest.arrayStringsAreEqual" />
         <item itemvalue="Gradle.CheckIfTwoStringArraysAreEquivalentTest" />
-        <item itemvalue="Gradle.SortingMyImplsTest.mergeSortTest" />
       </list>
     </recent_temporary>
   </component>
@@ -232,7 +233,8 @@
       <workItem from="1699804179608" duration="7949000" />
       <workItem from="1699816381371" duration="1144000" />
       <workItem from="1699817605787" duration="3797000" />
-      <workItem from="1699850817862" duration="4338000" />
+      <workItem from="1699850817862" duration="4955000" />
+      <workItem from="1699858355423" duration="2572000" />
     </task>
     <task id="LOCAL-00001" summary="solve Construct The Rectangle, but slow.">
       <option name="closed" value="true" />
@@ -330,7 +332,15 @@
       <option name="project" value="LOCAL" />
       <updated>1699821394276</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="solve SplitWithMinimumSum. can be faster.">
+      <option name="closed" value="true" />
+      <created>1699855634864</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1699855634864</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -348,7 +358,8 @@
     <MESSAGE value="implement mergesort, then improve readability. restructure packages." />
     <MESSAGE value="implement isSameTree all by myself. beating 100% in both runtime and memory (memory part almost)." />
     <MESSAGE value="solve CheckIfTwoStringArraysAreEquivalent, but slow." />
-    <option name="LAST_COMMIT_MESSAGE" value="solve CheckIfTwoStringArraysAreEquivalent, but slow." />
+    <MESSAGE value="solve SplitWithMinimumSum. can be faster." />
+    <option name="LAST_COMMIT_MESSAGE" value="solve SplitWithMinimumSum. can be faster." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -385,6 +396,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/general/leetcode/SplitWithMinimumSum.java</url>
           <line>8</line>
           <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/general/SlowestKey.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="21" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
