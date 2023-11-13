@@ -1,7 +1,5 @@
 package org.general;
 
-import java.util.*;
-
 public class SlowestKey {
     public char slowestKey(int[] releaseTimes, String keysPressed) {
         int maxDuration = Integer.MIN_VALUE;
