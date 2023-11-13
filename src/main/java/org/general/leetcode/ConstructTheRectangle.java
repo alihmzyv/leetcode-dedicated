@@ -3,6 +3,7 @@ package org.general.leetcode;
 import org.general.leetcode.extra.DoubleUtil;
 
 public class ConstructTheRectangle {
+    // TODO: 13.11.23 document all solutions if they are my own or from web. Add time and space complexities as well. 
     // TODO: 09.11.23 research on the most efficient solutions for this problem.
     public int[] constructRectangle(int area) {
         int length = 0;

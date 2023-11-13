@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b3a3b6db-9d4c-4e75-945c-3a06d9123149" name="Changes" comment="solve SplitWithMinimumSum. can be faster.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/general/SlowestKey.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/general/SlowestKeyTest.java" afterDir="false" />
+    <list default="true" id="b3a3b6db-9d4c-4e75-945c-3a06d9123149" name="Changes" comment="improve Slowest Key solution. beats 100% in runtime. space can be improved?">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -234,7 +232,7 @@
       <workItem from="1699816381371" duration="1144000" />
       <workItem from="1699817605787" duration="3797000" />
       <workItem from="1699850817862" duration="4955000" />
-      <workItem from="1699858355423" duration="2572000" />
+      <workItem from="1699858355423" duration="3451000" />
     </task>
     <task id="LOCAL-00001" summary="solve Construct The Rectangle, but slow.">
       <option name="closed" value="true" />
@@ -340,7 +338,31 @@
       <option name="project" value="LOCAL" />
       <updated>1699855634864</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="solve SlowestKey, can be faster.">
+      <option name="closed" value="true" />
+      <created>1699861003373</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1699861003373</updated>
+    </task>
+    <task id="LOCAL-00015" summary="improve Slowest Key solution. beats 100% in runtime. space can be improved?">
+      <option name="closed" value="true" />
+      <created>1699861374045</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1699861374045</updated>
+    </task>
+    <task id="LOCAL-00016" summary="improve Slowest Key solution. beats 100% in runtime. space can be improved?">
+      <option name="closed" value="true" />
+      <created>1699861403069</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1699861403070</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -359,7 +381,9 @@
     <MESSAGE value="implement isSameTree all by myself. beating 100% in both runtime and memory (memory part almost)." />
     <MESSAGE value="solve CheckIfTwoStringArraysAreEquivalent, but slow." />
     <MESSAGE value="solve SplitWithMinimumSum. can be faster." />
-    <option name="LAST_COMMIT_MESSAGE" value="solve SplitWithMinimumSum. can be faster." />
+    <MESSAGE value="solve SlowestKey, can be faster." />
+    <MESSAGE value="improve Slowest Key solution. beats 100% in runtime. space can be improved?" />
+    <option name="LAST_COMMIT_MESSAGE" value="improve Slowest Key solution. beats 100% in runtime. space can be improved?" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -396,11 +420,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/general/leetcode/SplitWithMinimumSum.java</url>
           <line>8</line>
           <option name="timeStamp" value="20" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/general/SlowestKey.java</url>
-          <line>6</line>
-          <option name="timeStamp" value="21" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
