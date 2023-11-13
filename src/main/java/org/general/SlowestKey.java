@@ -4,35 +4,22 @@ import java.util.*;
 
 public class SlowestKey {
     public char slowestKey(int[] releaseTimes, String keysPressed) {
-        //can use map to avoid iterating array twice
-        int[] durations = getDurations(releaseTimes);
-        int maxDuration = Arrays.stream(durations)
-                .max()
-                .orElse(Integer.MAX_VALUE);
-        return getLargestKeyWithMaxDuration(durations, keysPressed, maxDuration);
-    }
+        int maxDuration = Integer.MIN_VALUE;
+        char largestKeyWithMaxDuration = Character.MIN_VALUE;
 
-    private int[] getDurations(int[] releaseTimes) {
-        int numOfKeysPressed = releaseTimes.length;
-        int[] durations = new int[numOfKeysPressed];
+        int numOfKeysPressed = keysPressed.length();
         for (int index = 0; index < numOfKeysPressed; index++) {
+            char key = keysPressed.charAt(index);
             int duration;
             if (index == 0) {
-                duration = releaseTimes[0];
+                duration = releaseTimes[index];
             } else {
                 duration = releaseTimes[index] - releaseTimes[index - 1];
             }
-            durations[index] = duration;
-        }
-        return durations;
-    }
-
-    private char getLargestKeyWithMaxDuration(int[] durations, String keysPressed, int maxDuration) {
-        char largestKeyWithMaxDuration = Character.MIN_VALUE;
-        int numOfKeysPressed = durations.length;
-        for (int index = 0; index < numOfKeysPressed; index++) {
-            if (durations[index] == maxDuration) {
-                char key = keysPressed.charAt(index);
+            if (duration > maxDuration) {
+                maxDuration = duration;
+                largestKeyWithMaxDuration = key;
+            } else if (duration == maxDuration) {
                 if (key > largestKeyWithMaxDuration) {
                     largestKeyWithMaxDuration = key;
                 }
