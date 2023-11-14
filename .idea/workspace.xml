@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b3a3b6db-9d4c-4e75-945c-3a06d9123149" name="Changes" comment="add todo.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/general/leetcode/FirstBadVersion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/general/leetcode/ThirdMaximumNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/general/leetcode/ThirdMaximumNumberTest.java" afterDir="false" />
+    <list default="true" id="b3a3b6db-9d4c-4e75-945c-3a06d9123149" name="Changes" comment="solve ThirdMaximumNumber.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/general/SumOfUniqueElements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/general/SumOfUniqueElementsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/general/SlowestKey.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/general/SlowestKey.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +69,7 @@
     "WebServerToolWindowFactoryState": "false",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "last_opened_file_path": "/home/alihmzyv/IdeaProjects/account-service",
+    "last_opened_file_path": "/home/alihmzyv/IdeaProjects/promotion-scheduler-service",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -88,13 +86,13 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="org.general.leetcode" />
       <recent name="org.general" />
+      <recent name="org.general.leetcode" />
       <recent name="org.general.sedgewick" />
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.ThirdMaximumNumberTest.thirdMax">
+  <component name="RunManager" selected="Gradle.SumOfUniqueElementsTest">
     <configuration name="FirstBadVersion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.general.leetcode.FirstBadVersion" />
       <module name="leetcode-dedicated.main" />
@@ -132,7 +130,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="SplitWithMinimumSumTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="SumOfUniqueElementsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -145,7 +143,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;org.general.leetcode.SplitWithMinimumSumTest&quot;" />
+            <option value="&quot;org.general.SumOfUniqueElementsTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -156,7 +154,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="SplitWithMinimumSumTest.splitNum" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="SumOfUniqueElementsTest.sumOfUnique" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -169,7 +167,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;org.general.leetcode.SplitWithMinimumSumTest.splitNum&quot;" />
+            <option value="&quot;org.general.SumOfUniqueElementsTest.sumOfUnique&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -206,11 +204,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.SumOfUniqueElementsTest" />
+        <item itemvalue="Gradle.SumOfUniqueElementsTest.sumOfUnique" />
         <item itemvalue="Gradle.ThirdMaximumNumberTest.thirdMax" />
         <item itemvalue="Application.FirstBadVersion" />
         <item itemvalue="Gradle.SlowestKeyTest.slowestKey" />
-        <item itemvalue="Gradle.SplitWithMinimumSumTest" />
-        <item itemvalue="Gradle.SplitWithMinimumSumTest.splitNum" />
       </list>
     </recent_temporary>
   </component>
@@ -234,7 +232,8 @@
       <workItem from="1699816381371" duration="1144000" />
       <workItem from="1699817605787" duration="3797000" />
       <workItem from="1699850817862" duration="4955000" />
-      <workItem from="1699858355423" duration="13860000" />
+      <workItem from="1699858355423" duration="14700000" />
+      <workItem from="1699941972862" duration="5982000" />
     </task>
     <task id="LOCAL-00001" summary="solve Construct The Rectangle, but slow.">
       <option name="closed" value="true" />
@@ -372,7 +371,15 @@
       <option name="project" value="LOCAL" />
       <updated>1699862020743</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="solve ThirdMaximumNumber.">
+      <option name="closed" value="true" />
+      <created>1699881075196</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1699881075196</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -394,7 +401,8 @@
     <MESSAGE value="solve SlowestKey, can be faster." />
     <MESSAGE value="improve Slowest Key solution. beats 100% in runtime. space can be improved?" />
     <MESSAGE value="add todo." />
-    <option name="LAST_COMMIT_MESSAGE" value="add todo." />
+    <MESSAGE value="solve ThirdMaximumNumber." />
+    <option name="LAST_COMMIT_MESSAGE" value="solve ThirdMaximumNumber." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -431,11 +439,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/general/leetcode/SplitWithMinimumSum.java</url>
           <line>8</line>
           <option name="timeStamp" value="20" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/general/leetcode/FirstBadVersion.java</url>
-          <line>4</line>
-          <option name="timeStamp" value="22" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/general/leetcode/ThirdMaximumNumber.java</url>
