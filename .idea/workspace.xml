@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b3a3b6db-9d4c-4e75-945c-3a06d9123149" name="Changes" comment="solve destination city problem. start to study searching, Binary Search Tree.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/general/leetcode/ContainsDuplicate2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/general/leetcode/MinimumTimeVisitingAllPoints.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/general/leetcode/MinimumTimeVisitingAllPointsTest.java" afterDir="false" />
+    <list default="true" id="b3a3b6db-9d4c-4e75-945c-3a06d9123149" name="Changes" comment="solve MinimumTimeVisitingAllPoints.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/general/leetcode/MaximizeSumOfArrayAfterKNegations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/general/leetcode/MaximizeSumOfArrayAfterKNegationsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,7 +69,7 @@
     "WebServerToolWindowFactoryState": "false",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "last_opened_file_path": "/home/alihmzyv/IdeaProjects/event-creation-service",
+    "last_opened_file_path": "/home/alihmzyv/IdeaProjects/leetcode-dedicated",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -93,31 +92,7 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.MinimumTimeVisitingAllPointsTest">
-    <configuration name="DestinationCityTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;org.general.leetcode.DestinationCityTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Gradle.MaximizeSumOfArrayAfterKNegationsTest.largestSumAfterKNegations">
     <configuration name="DestinationCityTest.destCity" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -132,6 +107,54 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;org.general.leetcode.DestinationCityTest.destCity&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="MaximizeSumOfArrayAfterKNegationsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;org.general.leetcode.MaximizeSumOfArrayAfterKNegationsTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="MaximizeSumOfArrayAfterKNegationsTest.largestSumAfterKNegations" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;org.general.leetcode.MaximizeSumOfArrayAfterKNegationsTest.largestSumAfterKNegations&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -190,35 +213,13 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="leetcode-dedicated [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="clean" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>false</RunAsTest>
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.MaximizeSumOfArrayAfterKNegationsTest.largestSumAfterKNegations" />
+        <item itemvalue="Gradle.MaximizeSumOfArrayAfterKNegationsTest" />
         <item itemvalue="Gradle.MinimumTimeVisitingAllPointsTest" />
         <item itemvalue="Gradle.MinimumTimeVisitingAllPointsTest.minTimeToVisitAllPoints" />
         <item itemvalue="Gradle.DestinationCityTest.destCity" />
-        <item itemvalue="Gradle.leetcode-dedicated [clean]" />
-        <item itemvalue="Gradle.DestinationCityTest" />
       </list>
     </recent_temporary>
   </component>
@@ -248,7 +249,9 @@
       <workItem from="1700051873829" duration="2151000" />
       <workItem from="1700114274050" duration="2810000" />
       <workItem from="1700199833602" duration="3068000" />
-      <workItem from="1700204226338" duration="9638000" />
+      <workItem from="1700204226338" duration="11667000" />
+      <workItem from="1700225732829" duration="1411000" />
+      <workItem from="1700227334017" duration="917000" />
     </task>
     <task id="LOCAL-00001" summary="solve Construct The Rectangle, but slow.">
       <option name="closed" value="true" />
@@ -410,7 +413,15 @@
       <option name="project" value="LOCAL" />
       <updated>1700202580870</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="solve MinimumTimeVisitingAllPoints.">
+      <option name="closed" value="true" />
+      <created>1700214849165</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1700214849165</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -436,7 +447,8 @@
     <MESSAGE value="solve SumOfUniqueElements." />
     <MESSAGE value="solve SumOfUniqueElements, but slow." />
     <MESSAGE value="solve destination city problem. start to study searching, Binary Search Tree." />
-    <option name="LAST_COMMIT_MESSAGE" value="solve destination city problem. start to study searching, Binary Search Tree." />
+    <MESSAGE value="solve MinimumTimeVisitingAllPoints." />
+    <option name="LAST_COMMIT_MESSAGE" value="solve MinimumTimeVisitingAllPoints." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -488,6 +500,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/general/leetcode/MinimumTimeVisitingAllPoints.java</url>
           <line>4</line>
           <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/general/leetcode/MaximizeSumOfArrayAfterKNegations.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="33" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
