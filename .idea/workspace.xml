@@ -4,10 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b3a3b6db-9d4c-4e75-945c-3a06d9123149" name="Changes" comment="solve ThirdMaximumNumber.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/general/SumOfUniqueElements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/general/SumOfUniqueElementsTest.java" afterDir="false" />
+    <list default="true" id="b3a3b6db-9d4c-4e75-945c-3a06d9123149" name="Changes" comment="solve SumOfUniqueElements, but slow.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/general/leetcode/DestinationCity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/general/leetcode/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/general/sedgewick/BinarySearchTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/general/leetcode/DestinationCityTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/general/sedgewick/BinarySearchTreeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/general/sedgewick/SortingMyImpls.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/general/sedgewick/SortingMyImpls.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,40 +65,40 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "last_opened_file_path": "/home/alihmzyv/IdeaProjects/promotion-scheduler-service",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/alihmzyv/IdeaProjects/leetcode-dedicated&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="org.general" />
       <recent name="org.general.leetcode" />
       <recent name="org.general.sedgewick" />
+      <recent name="org.general" />
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.SumOfUniqueElementsTest">
-    <configuration name="FirstBadVersion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.general.leetcode.FirstBadVersion" />
+  <component name="RunManager" selected="Gradle.DestinationCityTest.destCity">
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.general.leetcode.Test" />
       <module name="leetcode-dedicated.main" />
       <extension name="coverage">
         <pattern>
@@ -106,7 +110,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SlowestKeyTest.slowestKey" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="BinarySearchTreeTest.get" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -119,7 +123,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;org.general.SlowestKeyTest.slowestKey&quot;" />
+            <option value="&quot;org.general.sedgewick.BinarySearchTreeTest.get&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -130,7 +134,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="SumOfUniqueElementsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="DestinationCityTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -143,7 +147,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;org.general.SumOfUniqueElementsTest&quot;" />
+            <option value="&quot;org.general.leetcode.DestinationCityTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -154,7 +158,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="SumOfUniqueElementsTest.sumOfUnique" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="DestinationCityTest.destCity" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -167,7 +171,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;org.general.SumOfUniqueElementsTest.sumOfUnique&quot;" />
+            <option value="&quot;org.general.leetcode.DestinationCityTest.destCity&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -178,37 +182,35 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="ThirdMaximumNumberTest.thirdMax" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="leetcode-dedicated [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
+        <option name="scriptParameters" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;org.general.leetcode.ThirdMaximumNumberTest.thirdMax&quot;" />
+            <option value="clean" />
           </list>
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
+      <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.SumOfUniqueElementsTest" />
-        <item itemvalue="Gradle.SumOfUniqueElementsTest.sumOfUnique" />
-        <item itemvalue="Gradle.ThirdMaximumNumberTest.thirdMax" />
-        <item itemvalue="Application.FirstBadVersion" />
-        <item itemvalue="Gradle.SlowestKeyTest.slowestKey" />
+        <item itemvalue="Gradle.DestinationCityTest.destCity" />
+        <item itemvalue="Gradle.leetcode-dedicated [clean]" />
+        <item itemvalue="Gradle.DestinationCityTest" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Gradle.BinarySearchTreeTest.get" />
       </list>
     </recent_temporary>
   </component>
@@ -233,7 +235,11 @@
       <workItem from="1699817605787" duration="3797000" />
       <workItem from="1699850817862" duration="4955000" />
       <workItem from="1699858355423" duration="14700000" />
-      <workItem from="1699941972862" duration="5982000" />
+      <workItem from="1699941972862" duration="10206000" />
+      <workItem from="1700044628140" duration="2655000" />
+      <workItem from="1700051873829" duration="2151000" />
+      <workItem from="1700114274050" duration="2810000" />
+      <workItem from="1700199833602" duration="2626000" />
     </task>
     <task id="LOCAL-00001" summary="solve Construct The Rectangle, but slow.">
       <option name="closed" value="true" />
@@ -379,7 +385,15 @@
       <option name="project" value="LOCAL" />
       <updated>1699881075196</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="solve SumOfUniqueElements, but slow.">
+      <option name="closed" value="true" />
+      <created>1699949110772</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1699949110772</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -402,7 +416,9 @@
     <MESSAGE value="improve Slowest Key solution. beats 100% in runtime. space can be improved?" />
     <MESSAGE value="add todo." />
     <MESSAGE value="solve ThirdMaximumNumber." />
-    <option name="LAST_COMMIT_MESSAGE" value="solve ThirdMaximumNumber." />
+    <MESSAGE value="solve SumOfUniqueElements." />
+    <MESSAGE value="solve SumOfUniqueElements, but slow." />
+    <option name="LAST_COMMIT_MESSAGE" value="solve SumOfUniqueElements, but slow." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -444,6 +460,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/general/leetcode/ThirdMaximumNumber.java</url>
           <line>4</line>
           <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/general/sedgewick/BinarySearchTree.java</url>
+          <line>58</line>
+          <option name="timeStamp" value="29" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

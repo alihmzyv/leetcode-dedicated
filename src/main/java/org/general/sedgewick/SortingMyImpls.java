@@ -58,4 +58,6 @@ public class SortingMyImpls {
             else arr[mergePointer] = arr[leftPointer++];
         }
     }
+
+    // TODO: 14.11.23 implement quicksort
 }
