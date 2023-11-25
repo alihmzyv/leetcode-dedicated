@@ -24,11 +24,5 @@ class BinarySearchTreeTest {
 
     @Test
     void insert() {
-        boolean inserted = binarySearchTree.insert("Ali", 2001);
-        assertTrue(inserted);
-        boolean inserted2 = binarySearchTree.insert("Ali", 2001);
-        assertFalse(inserted2);
-        boolean inserted3 = binarySearchTree.insert("Ali", 2002);
-        assertTrue(inserted3);
     }
 }

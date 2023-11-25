@@ -1,4 +1,4 @@
-package org.general;
+package org.general.leetcode;
 
 import java.util.*;
 

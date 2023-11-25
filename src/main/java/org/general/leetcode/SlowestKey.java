@@ -1,4 +1,4 @@
-package org.general;
+package org.general.leetcode;
 
 public class SlowestKey {
     public char slowestKey(int[] releaseTimes, String keysPressed) {

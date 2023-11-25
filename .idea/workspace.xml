@@ -5,9 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b3a3b6db-9d4c-4e75-945c-3a06d9123149" name="Changes" comment="write tests.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/general/leetcode/CountTheNumberOfConsistentStrings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/general/leetcode/CountTheNumberOfConsistentStringsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/general/leetcode/IntersectionOfTwoArraysII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/general/sedgewick/HashTableSepChaining.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/general/SlowestKey.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/general/leetcode/SlowestKey.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/general/SumOfUniqueElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/general/leetcode/SumOfUniqueElements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/general/leetcode/SingleNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/general/leetcode/SingleNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/general/sedgewick/BinarySearchTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/general/SlowestKeyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/general/SlowestKeyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/general/SumOfUniqueElementsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/general/SumOfUniqueElementsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/general/sedgewick/BinarySearchTreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/general/sedgewick/BinarySearchTreeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,8 +46,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -77,7 +86,7 @@
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -253,6 +262,9 @@
       <workItem from="1700225732829" duration="1411000" />
       <workItem from="1700227334017" duration="1006000" />
       <workItem from="1700381041324" duration="2081000" />
+      <workItem from="1700762586797" duration="8704000" />
+      <workItem from="1700915860016" duration="3708000" />
+      <workItem from="1700920757532" duration="2658000" />
     </task>
     <task id="LOCAL-00001" summary="solve Construct The Rectangle, but slow.">
       <option name="closed" value="true" />
@@ -500,11 +512,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/general/leetcode/ThirdMaximumNumber.java</url>
           <line>4</line>
           <option name="timeStamp" value="23" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/general/sedgewick/BinarySearchTree.java</url>
-          <line>58</line>
-          <option name="timeStamp" value="29" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/general/leetcode/MinimumTimeVisitingAllPoints.java</url>
