@@ -4,19 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b3a3b6db-9d4c-4e75-945c-3a06d9123149" name="Changes" comment="write tests.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/general/leetcode/IntersectionOfTwoArraysII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/general/sedgewick/HashTableSepChaining.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="b3a3b6db-9d4c-4e75-945c-3a06d9123149" name="Changes" comment="implement hash table with separate chaining. solve IntersectionOfTwoArraysII.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/general/SlowestKey.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/general/leetcode/SlowestKey.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/general/SumOfUniqueElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/general/leetcode/SumOfUniqueElements.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/general/leetcode/SingleNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/general/leetcode/SingleNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/general/sedgewick/BinarySearchTree.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/general/SlowestKeyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/general/SlowestKeyTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/general/SumOfUniqueElementsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/general/SumOfUniqueElementsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/general/sedgewick/BinarySearchTreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/general/sedgewick/BinarySearchTreeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/general/leetcode/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/general/sedgewick/SortingMyImpls.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/general/sedgewick/SortingMyImpls.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/general/sedgewick/BinarySearchTreeTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/general/sedgewick/SortingMyImplsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/general/sedgewick/SortingMyImplsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +46,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SET_USER_NAME_GLOBALLY" value="false" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="jar://$USER_HOME$/.jdks/corretto-17.0.8.1/lib/src.zip!/java.base/java/util/NavigableSet.java" root0="SKIP_INSPECTION" />
@@ -70,26 +64,26 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/alihmzyv/IdeaProjects/leetcode-dedicated&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "last_opened_file_path": "/home/alihmzyv/IdeaProjects/dsa/leetcode-dedicated",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -101,7 +95,7 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.CountTheNumberOfConsistentStringsTest">
+  <component name="RunManager" selected="Gradle.SortingMyImplsTest.quickSortTest">
     <configuration name="CountTheNumberOfConsistentStringsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -198,7 +192,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="MinimumTimeVisitingAllPointsTest.minTimeToVisitAllPoints" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="SortingMyImplsTest.quickSortTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -211,7 +205,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;org.general.leetcode.MinimumTimeVisitingAllPointsTest.minTimeToVisitAllPoints&quot;" />
+            <option value="&quot;org.general.sedgewick.SortingMyImplsTest.quickSortTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -224,11 +218,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.SortingMyImplsTest.quickSortTest" />
         <item itemvalue="Gradle.CountTheNumberOfConsistentStringsTest" />
         <item itemvalue="Gradle.MaximizeSumOfArrayAfterKNegationsTest.largestSumAfterKNegations" />
         <item itemvalue="Gradle.MaximizeSumOfArrayAfterKNegationsTest" />
         <item itemvalue="Gradle.MinimumTimeVisitingAllPointsTest" />
-        <item itemvalue="Gradle.MinimumTimeVisitingAllPointsTest.minTimeToVisitAllPoints" />
       </list>
     </recent_temporary>
   </component>
@@ -264,7 +258,11 @@
       <workItem from="1700381041324" duration="2081000" />
       <workItem from="1700762586797" duration="8704000" />
       <workItem from="1700915860016" duration="3708000" />
-      <workItem from="1700920757532" duration="2658000" />
+      <workItem from="1700920757532" duration="2921000" />
+      <workItem from="1700999033683" duration="66000" />
+      <workItem from="1700999108555" duration="91000" />
+      <workItem from="1701000614992" duration="27000" />
+      <workItem from="1701019944332" duration="6612000" />
     </task>
     <task id="LOCAL-00001" summary="solve Construct The Rectangle, but slow.">
       <option name="closed" value="true" />
@@ -442,7 +440,15 @@
       <option name="project" value="LOCAL" />
       <updated>1700228288459</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="implement hash table with separate chaining. solve IntersectionOfTwoArraysII.">
+      <option name="closed" value="true" />
+      <created>1700923540497</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1700923540498</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -470,7 +476,8 @@
     <MESSAGE value="solve destination city problem. start to study searching, Binary Search Tree." />
     <MESSAGE value="solve MinimumTimeVisitingAllPoints." />
     <MESSAGE value="write tests." />
-    <option name="LAST_COMMIT_MESSAGE" value="write tests." />
+    <MESSAGE value="implement hash table with separate chaining. solve IntersectionOfTwoArraysII." />
+    <option name="LAST_COMMIT_MESSAGE" value="implement hash table with separate chaining. solve IntersectionOfTwoArraysII." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -522,6 +529,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/general/leetcode/CountTheNumberOfConsistentStrings.java</url>
           <line>8</line>
           <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/general/sedgewick/SortingMyImpls.java</url>
+          <line>67</line>
+          <option name="timeStamp" value="39" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

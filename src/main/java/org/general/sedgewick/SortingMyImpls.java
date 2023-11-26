@@ -60,4 +60,35 @@ public class SortingMyImpls {
     }
 
     // TODO: 14.11.23 implement quicksort
+    public static void quickSort(int[] arr) {
+        quickSort(arr, 0, arr.length);
+    }
+
+    private static void quickSort(int[] arr, int lo, int hi) {
+        if (hi > lo) {
+            int j = partition(arr, lo, hi);
+            quickSort(arr, lo, j);
+            quickSort(arr, j + 1, hi);
+        }
+    }
+
+    private static int partition(int[] arr, int lo, int hi) {//hi - excl
+        int pivot = arr[lo];
+        int i = lo;
+        int j = hi;
+
+        while (i < j) {
+            do {
+                i++;
+            } while (i < arr.length && arr[i] <= pivot);
+            do {
+                j--;
+            } while (j > 0 && arr[j] > pivot);
+            if (i < j) {
+                exch(i, j, arr);
+            }
+        }
+        exch(lo, j, arr);
+        return j;
+    }
 }

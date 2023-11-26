@@ -40,4 +40,15 @@ class SortingMyImplsTest {
         System.out.println("Arr copy: " + Arrays.toString(arrCopy));
         assertArrayEquals(arrCopy, arr);
     }
+
+    @Test
+    void quickSortTest() {
+        int[] arr = {0, -1, 2, 1, 0, 3, -5, 6, 1, -1};
+        int[] arrCopy = Arrays.copyOf(arr, arr.length);
+        Arrays.sort(arrCopy);
+        SortingMyImpls.quickSort(arr);
+        System.out.println("Actual: " + Arrays.toString(arr));
+        System.out.println("Expected: " + Arrays.toString(arrCopy));
+        assertArrayEquals(arrCopy, arr);
+    }
 }
