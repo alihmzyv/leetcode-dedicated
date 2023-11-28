@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b3a3b6db-9d4c-4e75-945c-3a06d9123149" name="Changes" comment="Implement quicksort.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/general/leetcode/BestTimeToBuyAndSellStock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/general/leetcode/ElementAppearingMoreThan25InSortedArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/general/leetcode/MaximumCountOfPositiveIntegerAndNegativeInteger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/general/leetcode/BestTimeToBuyAndSellStockTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/general/leetcode/ElementAppearingMoreThan25InSortedArrayTest.java" afterDir="false" />
+    <list default="true" id="b3a3b6db-9d4c-4e75-945c-3a06d9123149" name="Changes" comment="solve problems.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/general/leetcode/MajorityElement.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/general/leetcode/SingleNumber.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,8 +36,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -74,7 +69,7 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/alihmzyv/IdeaProjects/dsa/leetcode-dedicated&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/alihmzyv/IdeaProjects/leetcode-dedicated&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -257,6 +252,7 @@
       <workItem from="1700225732829" duration="1411000" />
       <workItem from="1700227334017" duration="1006000" />
       <workItem from="1700381041324" duration="2081000" />
+      <workItem from="1701166821876" duration="1262000" />
     </task>
     <task id="LOCAL-00001" summary="solve Construct The Rectangle, but slow.">
       <option name="closed" value="true" />
@@ -434,7 +430,15 @@
       <option name="project" value="LOCAL" />
       <updated>1700228288459</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="solve problems.">
+      <option name="closed" value="true" />
+      <created>1701086074273</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1701086074273</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -462,7 +466,8 @@
     <MESSAGE value="solve destination city problem. start to study searching, Binary Search Tree." />
     <MESSAGE value="solve MinimumTimeVisitingAllPoints." />
     <MESSAGE value="write tests." />
-    <option name="LAST_COMMIT_MESSAGE" value="write tests." />
+    <MESSAGE value="solve problems." />
+    <option name="LAST_COMMIT_MESSAGE" value="solve problems." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
