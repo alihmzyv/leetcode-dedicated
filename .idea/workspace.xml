@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b3a3b6db-9d4c-4e75-945c-3a06d9123149" name="Changes" comment="solve Majority Element.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/general/leetcode/ValidPalindrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/general/leetcode/ValidPalindromeTest.java" afterDir="false" />
+    <list default="true" id="b3a3b6db-9d4c-4e75-945c-3a06d9123149" name="Changes" comment="solve is palindrome.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/general/leetcode/FirstUniqueCharacterInAString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/general/leetcode/FirstUniqueCharacterInAStringTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,7 +70,7 @@
     "WebServerToolWindowFactoryState": "false",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "last_opened_file_path": "/home/alihmzyv/IdeaProjects/account-service",
+    "last_opened_file_path": "/home/alihmzyv/IdeaProjects/leetcode-dedicated",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -93,7 +93,7 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.ValidPalindromeTest.isPalindrome">
+  <component name="RunManager" selected="Gradle.FirstUniqueCharacterInAStringTest.firstUniqChar">
     <configuration name="BestTimeToBuyAndSellStockTest.maxProfit" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -142,7 +142,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="MaximizeSumOfArrayAfterKNegationsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="FirstUniqueCharacterInAStringTest.firstUniqChar" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -155,7 +155,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;org.general.leetcode.MaximizeSumOfArrayAfterKNegationsTest&quot;" />
+            <option value="&quot;org.general.leetcode.FirstUniqueCharacterInAStringTest.firstUniqChar&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -216,11 +216,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.FirstUniqueCharacterInAStringTest.firstUniqChar" />
         <item itemvalue="Gradle.ValidPalindromeTest.isPalindrome" />
         <item itemvalue="Gradle.BestTimeToBuyAndSellStockTest.maxProfit" />
         <item itemvalue="Gradle.CountTheNumberOfConsistentStringsTest" />
         <item itemvalue="Gradle.MaximizeSumOfArrayAfterKNegationsTest.largestSumAfterKNegations" />
-        <item itemvalue="Gradle.MaximizeSumOfArrayAfterKNegationsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -256,7 +256,9 @@
       <workItem from="1700381041324" duration="2081000" />
       <workItem from="1701166821876" duration="1262000" />
       <workItem from="1701178077616" duration="139000" />
-      <workItem from="1701235380106" duration="3113000" />
+      <workItem from="1701235380106" duration="4627000" />
+      <workItem from="1701412939007" duration="599000" />
+      <workItem from="1701610802825" duration="3189000" />
     </task>
     <task id="LOCAL-00001" summary="solve Construct The Rectangle, but slow.">
       <option name="closed" value="true" />
@@ -450,7 +452,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701178208882</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="solve is palindrome.">
+      <option name="closed" value="true" />
+      <created>1701239849461</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1701239849461</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -480,7 +490,8 @@
     <MESSAGE value="write tests." />
     <MESSAGE value="solve problems." />
     <MESSAGE value="solve Majority Element." />
-    <option name="LAST_COMMIT_MESSAGE" value="solve Majority Element." />
+    <MESSAGE value="solve is palindrome." />
+    <option name="LAST_COMMIT_MESSAGE" value="solve is palindrome." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -537,6 +548,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/general/leetcode/ValidPalindrome.java</url>
           <line>4</line>
           <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/general/leetcode/FirstUniqueCharacterInAString.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="34" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
