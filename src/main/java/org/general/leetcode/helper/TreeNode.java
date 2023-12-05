@@ -3,9 +3,9 @@ package org.general.leetcode.helper;
 import org.general.leetcode.SameTree;
 
 public class TreeNode {
-    int val;
-    SameTree.TreeNode left;
-    SameTree.TreeNode right;
+    public int val;
+    public TreeNode left;
+    public TreeNode right;
 
     TreeNode() {
     }
@@ -14,7 +14,7 @@ public class TreeNode {
         this.val = val;
     }
 
-    TreeNode(int val, SameTree.TreeNode left, SameTree.TreeNode right) {
+    TreeNode(int val, TreeNode left, TreeNode right) {
         this.val = val;
         this.left = left;
         this.right = right;

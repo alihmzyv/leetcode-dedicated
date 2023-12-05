@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b3a3b6db-9d4c-4e75-945c-3a06d9123149" name="Changes" comment="solve is palindrome.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/general/leetcode/FirstUniqueCharacterInAString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/general/leetcode/FirstUniqueCharacterInAStringTest.java" afterDir="false" />
+    <list default="true" id="b3a3b6db-9d4c-4e75-945c-3a06d9123149" name="Changes" comment="solve First Unique Character in a String.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/general/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/general/leetcode/SymmetricTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/general/leetcode/helper/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/general/leetcode/helper/TreeNode.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,8 +38,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -93,7 +94,20 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.FirstUniqueCharacterInAStringTest.firstUniqChar">
+  <component name="RunManager" selected="Application.Test">
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.general.Test" />
+      <module name="leetcode-dedicated.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.general.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BestTimeToBuyAndSellStockTest.maxProfit" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -166,30 +180,6 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="MaximizeSumOfArrayAfterKNegationsTest.largestSumAfterKNegations" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;org.general.leetcode.MaximizeSumOfArrayAfterKNegationsTest.largestSumAfterKNegations&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
     <configuration name="ValidPalindromeTest.isPalindrome" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -216,11 +206,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test" />
         <item itemvalue="Gradle.FirstUniqueCharacterInAStringTest.firstUniqChar" />
         <item itemvalue="Gradle.ValidPalindromeTest.isPalindrome" />
         <item itemvalue="Gradle.BestTimeToBuyAndSellStockTest.maxProfit" />
         <item itemvalue="Gradle.CountTheNumberOfConsistentStringsTest" />
-        <item itemvalue="Gradle.MaximizeSumOfArrayAfterKNegationsTest.largestSumAfterKNegations" />
       </list>
     </recent_temporary>
   </component>
@@ -258,7 +248,10 @@
       <workItem from="1701178077616" duration="139000" />
       <workItem from="1701235380106" duration="4627000" />
       <workItem from="1701412939007" duration="599000" />
-      <workItem from="1701610802825" duration="3189000" />
+      <workItem from="1701610802825" duration="3214000" />
+      <workItem from="1701683429566" duration="1128000" />
+      <workItem from="1701696786277" duration="542000" />
+      <workItem from="1701788018669" duration="505000" />
     </task>
     <task id="LOCAL-00001" summary="solve Construct The Rectangle, but slow.">
       <option name="closed" value="true" />
@@ -460,7 +453,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701239849461</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="solve First Unique Character in a String.">
+      <option name="closed" value="true" />
+      <created>1701614011125</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1701614011125</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -491,7 +492,8 @@
     <MESSAGE value="solve problems." />
     <MESSAGE value="solve Majority Element." />
     <MESSAGE value="solve is palindrome." />
-    <option name="LAST_COMMIT_MESSAGE" value="solve is palindrome." />
+    <MESSAGE value="solve First Unique Character in a String." />
+    <option name="LAST_COMMIT_MESSAGE" value="solve First Unique Character in a String." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
